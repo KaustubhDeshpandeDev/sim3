@@ -17,6 +17,7 @@ class Nav extends Component {
       console.log(res);
       this.setState({ userid: res.data.userid, username: res.data.username });
       console.log("commit");
+      console.log("new commit");
     });
   }
 
